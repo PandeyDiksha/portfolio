@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dip's Portfolio — Diksha "Dip" Pandey, UI/UX Designer</title>
+  <meta name="description" content="Dedicated designer delighted by details, turning dilemmas into designs. UI/UX portfolio of Diksha 'Dip' Pandey — Trinity Tales, Hogwarts Haven, Kaptis.">
+  <meta property="og:title" content="Dip's Portfolio — DipOS">
+  <meta property="og:description" content="UI/UX designer dedicated to creating user experiences that delight, at the intersection of technology and design.">
+  <meta property="og:image" content="assets/img/e45b6039_image-asset.png">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Instrument+Serif:ital@0;1&family=Inter+Tight:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/dipos.css">
+</head>
+<body>
+  <a class="skip-link" href="#win-welcome">Skip to content</a>
+
+  <header class="menubar">
+    <a class="brand" href="index.html"><span class="dot"></span>DipOS</a>
+    <nav aria-label="Main">
+      <details>
+        <summary>Work ▾</summary>
+        <div class="menu-list">
+          <a href="trinitytales.html">Trinity Tales <span>game</span></a>
+          <a href="hogwartshaven.html">Hogwarts Haven <span>web</span></a>
+          <a href="kaptis.html">Kaptis <span>smart toy</span></a>
+        </div>
+      </details>
+      <a href="#win-about" data-window="win-about">About</a>
+      <a href="assets/Pandey-CV-2025.pdf" target="_blank" rel="noopener">CV ↗</a>
+      <a href="#win-contact" data-window="win-contact">Contact</a>
+    </nav>
+    <div class="clock" aria-hidden="true">
+      <span class="date"></span>
+      <span class="time"></span>
+    </div>
+  </header>
+
+  <main class="desktop" id="desktop">
+
+    <!-- ===================== desktop icons ===================== -->
+    <button class="icon" style="left:26px; top:78px;" data-window="win-trinity">
+      <svg viewBox="0 0 58 58" aria-hidden="true">
+        <rect x="4" y="14" width="22" height="10" fill="#FE6420" stroke="#1C1B18" stroke-width="2.5"/>
+        <rect x="4" y="18" width="50" height="32" fill="#FE6420" stroke="#1C1B18" stroke-width="2.5"/>
+        <rect x="11" y="26" width="36" height="3" fill="#1C1B18"/>
+      </svg>
+      <span class="icon-label">Trinity Tales</span>
+    </button>
+
+    <button class="icon" style="left:26px; top:188px;" data-window="win-hogwarts">
+      <svg viewBox="0 0 58 58" aria-hidden="true">
+        <rect x="4" y="14" width="22" height="10" fill="#4C89C8" stroke="#1C1B18" stroke-width="2.5"/>
+        <rect x="4" y="18" width="50" height="32" fill="#4C89C8" stroke="#1C1B18" stroke-width="2.5"/>
+        <rect x="11" y="26" width="36" height="3" fill="#1C1B18"/>
+      </svg>
+      <span class="icon-label">Hogwarts Haven</span>
+    </button>
+
+    <button class="icon" style="left:26px; top:298px;" data-window="win-kaptis">
+      <svg viewBox="0 0 58 58" aria-hidden="true">
+        <rect x="4" y="14" width="22" height="10" fill="#CFE9D2" stroke="#1C1B18" stroke-width="2.5"/>
+        <rect x="4" y="18" width="50" height="32" fill="#CFE9D2" stroke="#1C1B18" stroke-width="2.5"/>
+        <rect x="11" y="26" width="36" height="3" fill="#1C1B18"/>
+      </svg>
+      <span class="icon-label">Kaptis</span>
+    </button>
+
+    <a class="icon" style="left:26px; top:408px;" href="assets/Pandey-CV-2025.pdf" target="_blank" rel="noopener">
+      <svg viewBox="0 0 58 58" aria-hidden="true">
+        <path d="M12 4 h26 l10 10 v40 h-36 z" fill="#FFFEFA" stroke="#1C1B18" stroke-width="2.5"/>
+        <path d="M38 4 v10 h10" fill="#FFE3A9" stroke="#1C1B18" stroke-width="2.5"/>
+        <rect x="19" y="24" width="22" height="2.5" fill="#1C1B18"/>
+        <rect x="19" y="31" width="22" height="2.5" fill="#1C1B18"/>
+        <rect x="19" y="38" width="14" height="2.5" fill="#FE6420"/>
+      </svg>
+      <span class="icon-label">CV.pdf ↗</span>
+    </a>
+
+    <button class="icon" style="left:26px; top:518px;" data-window="win-contact">
+      <svg viewBox="0 0 58 58" aria-hidden="true">
+        <rect x="4" y="12" width="50" height="34" fill="#FFCFD8" stroke="#1C1B18" stroke-width="2.5"/>
+        <path d="M4 12 L29 32 L54 12" fill="none" stroke="#1C1B18" stroke-width="2.5"/>
+      </svg>
+      <span class="icon-label">Contact</span>
+    </button>
+
+    <!-- ===================== welcome window ===================== -->
+    <section class="window window--orange" id="win-welcome" role="dialog" aria-labelledby="welcome-title"
+             style="left:max(160px, 18%); top:64px; width:min(620px, calc(100vw - 200px));">
+      <header class="titlebar">
+        <button class="winbtn close" aria-label="Close welcome window">×</button>
+        <h2 class="title" id="welcome-title">welcome.txt</h2>
+        <span class="winbtn spacer"></span>
+      </header>
+      <div class="winbody">
+        <p class="kicker">Diksha “Dip” Pandey — UI/UX Designer</p>
+        <h1 class="display">Dedicated designer <em>delighted</em> by details, turning dilemmas into designs.</h1>
+        <p>Driven by a devotion to users and a desire for problem-solving. I stand at the intersection of technology and design, dedicated to creating user experiences that delight.</p>
+        <p>MSc Interactive Digital Media, Trinity College Dublin · BSc Industrial Design Engineering, The Hague University of Applied Sciences.</p>
+        <div class="btn-row">
+          <a class="btn" href="trinitytales.html">See select works →</a>
+          <a class="btn btn--ghost" href="assets/Pandey-CV-2025.pdf" target="_blank" rel="noopener">View CV ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== project preview windows ===================== -->
+    <section class="window window--butter" id="win-trinity" role="dialog" aria-labelledby="trinity-title" hidden
+             style="left:max(200px, 26%); top:120px;">
+      <header class="titlebar">
+        <button class="winbtn close" aria-label="Close Trinity Tales window">×</button>
+        <h2 class="title" id="trinity-title">trinitytales — preview</h2>
+        <span class="winbtn spacer"></span>
+      </header>
+      <div class="winbody">
+        <img src="assets/img/e45b6039_image-asset.png" alt="Trinity Tales game art" loading="lazy" style="border:2px solid var(--ink);">
+        <div class="chips">
+          <span class="chip">UI/UX</span><span class="chip chip--blue">Game design</span><span class="chip chip--pink">Interaction</span>
+        </div>
+        <p>A Unity game that turns the chaotic onboarding of international students at Trinity College Dublin into playable chapters — guided by Sam, the campus fox.</p>
+        <a class="btn" href="trinitytales.html">Open case study →</a>
+      </div>
+    </section>
+
+    <section class="window window--blue" id="win-hogwarts" role="dialog" aria-labelledby="hogwarts-title" hidden
+             style="left:max(260px, 32%); top:180px;">
+      <header class="titlebar">
+        <button class="winbtn close" aria-label="Close Hogwarts Haven window">×</button>
+        <h2 class="title" id="hogwarts-title">hogwartshaven — preview</h2>
+        <span class="winbtn spacer"></span>
+      </header>
+      <div class="winbody">
+        <img src="assets/img/6aff04b8_Asset_1_copy_3.png" alt="Hogwarts Haven website art" loading="lazy" style="border:2px solid var(--ink);">
+        <div class="chips">
+          <span class="chip">UI/UX</span><span class="chip chip--blue">Web design</span><span class="chip chip--mint">Graphic design</span>
+        </div>
+        <p>A hand-coded housing website for a fictional utopian residence — Hogwarts — built to spotlight Dublin's very real student housing crisis.</p>
+        <a class="btn" href="hogwartshaven.html">Open case study →</a>
+      </div>
+    </section>
+
+    <section class="window window--mint" id="win-kaptis" role="dialog" aria-labelledby="kaptis-title" hidden
+             style="left:max(320px, 38%); top:240px;">
+      <header class="titlebar">
+        <button class="winbtn close" aria-label="Close Kaptis window">×</button>
+        <h2 class="title" id="kaptis-title">kaptis — preview</h2>
+        <span class="winbtn spacer"></span>
+      </header>
+      <div class="winbody">
+        <img src="assets/img/02902efa_packaging_for_portfolio_export1-01_copy_3.png" alt="Kaptis smart toy packaging" loading="lazy" style="border:2px solid var(--ink);">
+        <div class="chips">
+          <span class="chip">Game design</span><span class="chip chip--blue">Arduino</span><span class="chip chip--pink">Research</span>
+        </div>
+        <p>An Arduino-powered smart ball that gets Dutch primary-school kids out of their chairs — learning spelling and renewable energy by throwing, scanning, and playing.</p>
+        <a class="btn" href="kaptis.html">Open case study →</a>
+      </div>
+    </section>
+
+    <!-- ===================== about window ===================== -->
+    <section class="window window--lav" id="win-about" role="dialog" aria-labelledby="about-title"
+             style="left:auto; right:60px; top:100px; width:min(480px, calc(100vw - 120px));">
+      <header class="titlebar">
+        <button class="winbtn close" aria-label="Close about window">×</button>
+        <h2 class="title" id="about-title">about-dip.txt</h2>
+        <span class="winbtn spacer"></span>
+      </header>
+      <div class="winbody">
+        <p class="kicker">About</p>
+        <p>Having recently graduated with a Master's in Interactive Digital Media (MSc) from Trinity College Dublin, coupled with a foundational Bachelor's in Industrial Design Engineering (BSc) from The Hague University of Applied Sciences, I offer a confluence of international education and multifaceted design experience, equipped to deal with any challenge in any environment.</p>
+        <p>In the dynamic world of UI/UX where the silent genius of seamless design speaks volumes, I am dedicated to creating user experiences that delight — eager to contribute to a future of designs that are transformative and empower users.</p>
+        <a class="btn btn--ghost" href="assets/Pandey-CV-2025.pdf" target="_blank" rel="noopener">View CV ↗</a>
+      </div>
+    </section>
+
+    <!-- ===================== contact window ===================== -->
+    <section class="window window--pink" id="win-contact" role="dialog" aria-labelledby="contact-title" hidden
+             style="left:auto; right:90px; top:300px; width:min(440px, calc(100vw - 120px));">
+      <header class="titlebar">
+        <button class="winbtn close" aria-label="Close contact window">×</button>
+        <h2 class="title" id="contact-title">contact.app</h2>
+        <span class="winbtn spacer"></span>
+      </header>
+      <div class="winbody">
+        <p class="kicker">Say hello</p>
+        <p class="display" style="font-size:clamp(28px,4vw,40px);">Let's make something <em>delightful</em>.</p>
+        <div class="btn-row">
+          <a class="btn" href="mailto:dikshadippandey@gmail.com">Email me</a>
+          <a class="btn btn--blue" href="https://www.linkedin.com/in/dikshapandey/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+        <p style="font-family:var(--font-mono); font-size:12px; opacity:.7;">Made with <span class="heart" style="color:var(--orange);">♥</span> — and zero monthly subscriptions.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== multilingual ticker ===================== -->
+  <div class="ticker" aria-hidden="true">
+    <div class="reel">
+      <span>ようこそ · <b>WILLKOMMEN</b> · BIENVENIDO · <b>WELKOM</b> · स्वागत · <b>WELCOME</b> · FÁILTE ·</span>
+      <span>ようこそ · <b>WILLKOMMEN</b> · BIENVENIDO · <b>WELKOM</b> · स्वागत · <b>WELCOME</b> · FÁILTE ·</span>
+    </div>
+  </div>
+
+  <script src="js/dipos.js"></script>
+</body>
+</html>
